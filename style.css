@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffebee; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; /* Cor de fundo do container */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Largura máxima */
+    width: 90%; /* Largura responsiva */
+}
+
+.main-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #e91e63; /* Cor do título */
+}
+
+.main-paragraph {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+
+
+.question-text {
+    font-size: 1.5em; /* Tamanho da pergunta */
+    margin: 10px 0;
+}
+
+.select-container {
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none; /* Esconde elementos */
+}
+
+.response {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #e91e63; /* Cor do botão */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #c2185b; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilos existentes... */
+
+#question-image {
+    width: 30%%; /* A imagem ocupará 100% da largura do contêiner */
+    max-width: 200px; /* Defina um tamanho máximo para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem seja exibida como um bloco */
+    margin: 0 auto; /* Centraliza a imagem */
+    }
+
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Romântico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Você sabe muito sobre nós??</h1>
+        <p class="main-paragraph">Vamos descobrir juntos!</p>
+
+        <div class="image-container">
+            <img id="question-image" src="" alt="Imagem da Pergunta" class="question-image">
+        </div>
+
+        <h2 id="question-text" class="question-text"></h2>
+
+        <div class="select-container">
+            <label for="answer-select">Escolha a opção:</label>
+            <select id="answer-select" onchange="disableSelect()">
+                <option value="">-- Selecione --</option>
+            </select>
+            <button type="button" onclick="submitAnswer()">Enviar</button>
+        </div>
+
+        <div id="response" class="response"></div>
+        <button id="next-button" class="hidden" onclick="nextQuestion()">Próxima Pergunta</button>
+        <button id="restart-button" class="hidden" onclick="restartQuiz()">Reiniciar Quiz</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
